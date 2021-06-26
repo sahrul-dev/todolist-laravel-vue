@@ -15,6 +15,7 @@
 	export default{
 		props: ['item'],
 		methods: {
+			
 			updateCheck(){
 				axios.put('api/item/' + this.item.id, {
 					item: this.item
